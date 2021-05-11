@@ -10,6 +10,7 @@ const Share = ({color,quote, author}) => {
             id="tweet-quote"
             className="button"
             target="_blank"
+            rel="noreferrer"
             style={{color:color, paddingLeft:"1em"}}
         >
             <FaTwitter className="logo" id={"tweet-quote"}/>
