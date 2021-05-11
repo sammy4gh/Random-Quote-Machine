@@ -7,30 +7,7 @@ import {useState} from "react";
 function App() {
 
 
-    const quotes=
-    [
-          {   "id": 1,
-              "author": "Eddard Stark",
-              "quote": "Winter is coming"
-          },
-          {   "id": 2,
-              "author": "Tyrion Lannister",
-              "quote": "You need to take your enemy’s side if you’re going to see things the way they do"
-          },
-          {   "id": 3,
-              "author": "Sansa Stark",
-              "quote": "The lone wolf dies but the pack survives"
-          },
-          {   "id": 4,
-              "author": "Varys",
-              "quote": "Power resides where men believe it resides. It’s a trick, a shadow on the wall." +
-                  " And, a very small man can cast a very large shadow"
-          },
-          {   "id": 5,
-              "author": "Arya Stark",
-              "quote": "Fear cuts deeper than swords"
-          },
-      ]
+    
 
 
 
@@ -84,7 +61,6 @@ function App() {
                 random = {random}
                 quote = {quote}
                 author = {author}
-                /*quotes={quotes}*/
                 onClick={onClick}
                 />
         </div>
